@@ -62,7 +62,7 @@ namespace Tremor.Items.Alchemist.Flasks
 			recipe.AddIngredient(ItemID.Bottle, 1);
 			recipe.AddIngredient(3460, 3);
 			recipe.AddIngredient(null, "GelCube", 1);
-			recipe.SetResult(this, 15);
+			recipe.SetResult(this, 50);
 			recipe.AddRecipe();
 		}
 
