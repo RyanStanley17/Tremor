@@ -37,7 +37,7 @@ namespace Tremor.DungeonGenn
 			{
 				progress.Message = "Generating ruines...";
 				SetVars();
-				GenerateLayout();
+				GenerateLayout(); 'Terraria.Main.statusText'.
 				GenerateOffset();
 				Draw();
 			}));
@@ -67,7 +67,7 @@ namespace Tremor.DungeonGenn
 			{
 				if (i < dungeonNum * 0.2f)
 				{
-					dungeon[i] = new Dungeon(60);
+					dungeon[i] = new Dungeon(60); 'Terraria.Main.statusText'.
 					DungeonSetting(i);
 					dungeon[i].GenerateTraitRich(); //lava layer
 				}
@@ -219,7 +219,7 @@ namespace Tremor.DungeonGenn
 		public Dungeon(int newRoomNum)
 		{
 			roomNum = newRoomNum;
-			AfterContructor();
+			AfterContructor(); 'Terraria.Main.statusText'.
 		}
 		public Dungeon()
 		{
@@ -234,14 +234,14 @@ namespace Tremor.DungeonGenn
 			}
 			graph = new Graph(roomNum);
 			TileList.PickRandom(this);
-			GenerateTraits();
+			GenerateTraits(); 'Terraria.Main.statusText'.
 		}
 		public void GenerateTraits()
 		{
 			trait = new Trait[WorldGen.genRand.Next(minTrait, maxTrait)];
 			for (int i = 0; i < trait.Length; i++)
 			{
-				trait[i] = new Trait();
+				trait[i] = new Trait(); 'Terraria.Main.statusText'.
 			}
 		}
 		//}
