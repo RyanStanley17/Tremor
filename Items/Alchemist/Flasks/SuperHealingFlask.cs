@@ -77,28 +77,28 @@ namespace Tremor.Items.Alchemist.Flasks
 			recipe.AddIngredient(null, "BigHealingFlack", 20);
 			recipe.AddIngredient(3456, 1);
 			recipe.AddIngredient(null, "AngryShard", 1);
-			recipe.SetResult(this, 20);
+			recipe.SetResult(this, 200);
 			recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(null, "BigHealingFlack", 20);
 			recipe.AddIngredient(3457, 1);
 			recipe.AddIngredient(null, "AngryShard", 1);
-			recipe.SetResult(this, 20);
+			recipe.SetResult(this, 200);
 			recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(null, "BigHealingFlack", 20);
 			recipe.AddIngredient(3458, 1);
 			recipe.AddIngredient(null, "AngryShard", 1);
-			recipe.SetResult(this, 20);
+			recipe.SetResult(this, 200);
 			recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(null, "BigHealingFlack", 20);
 			recipe.AddIngredient(3459, 1);
 			recipe.AddIngredient(null, "AngryShard", 1);
-			recipe.SetResult(this, 20);
+			recipe.SetResult(this, 200);
 			recipe.AddRecipe();
 		}
 
