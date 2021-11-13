@@ -113,6 +113,7 @@ namespace Tremor.NPCs.TownNPCs
 				shop.AddUniqueItem(ref nextSlot, mod.ItemType<BlackCauldron>());
 				shop.AddUniqueItem(ref nextSlot, mod.ItemType<LesserVenomFlask>());
 				shop.AddUniqueItem(ref nextSlot, mod.ItemType<ConcentratedTincture>());
+				shop.AddUniqueItem(ref nextSlot, mod.ItemType<AncientMosaic>());
 			}
 			else
 			{
