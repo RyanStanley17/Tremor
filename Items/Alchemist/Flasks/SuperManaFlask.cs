@@ -77,28 +77,28 @@ namespace Tremor.Items.Alchemist.Flasks
 			recipe.AddIngredient(null, "BigManaFlask", 20);
 			recipe.AddIngredient(3456);
 			recipe.AddIngredient(null, "LapisLazuli", 1);
-			recipe.SetResult(this, 20);
+			recipe.SetResult(this, 200);
 			recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(null, "BigManaFlask", 20);
 			recipe.AddIngredient(3457);
 			recipe.AddIngredient(null, "LapisLazuli", 1);
-			recipe.SetResult(this, 20);
+			recipe.SetResult(this, 200);
 			recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(null, "BigManaFlask", 20);
 			recipe.AddIngredient(3458);
 			recipe.AddIngredient(null, "LapisLazuli", 1);
-			recipe.SetResult(this, 20);
+			recipe.SetResult(this, 200);
 			recipe.AddRecipe();
 
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(null, "BigManaFlask", 20);
 			recipe.AddIngredient(3459);
 			recipe.AddIngredient(null, "LapisLazuli", 1);
-			recipe.SetResult(this, 20);
+			recipe.SetResult(this, 200);
 			recipe.AddRecipe();
 		}
 
